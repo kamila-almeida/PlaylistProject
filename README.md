@@ -1,6 +1,6 @@
 # Playlist Application
 
-Playlist Application is a REST Api with CRUD operations of songs and playlists. 
+Playlist Application is a REST Api with CRUD operations of songs and playlists, and also the possiblity to create relationships between them. 
 
 ## Features
 
@@ -12,7 +12,7 @@ Playlist Application is a REST Api with CRUD operations of songs and playlists.
 
 ## Configuration
 
-Execute the script ```db_creation.sql``` that is inside the folder ```.\PlaylistProject\PlaylistApplication.API\Scripts``` to create the database and tables.
+The project uses SQL Server as its database. Please, execute the script [db_creation.sql](https://github.com/kamila-almeida/PlaylistProject/blob/develop/PlaylistApplication.API/Scripts/db_creation.sql) that is inside the folder ```.\PlaylistProject\PlaylistApplication.API\Scripts``` to create the database and tables. You can use the built-in SQL Server Object Explorer to connect to the localdb, and execute the script.
 
 ## Project Execution (cmd)
 
@@ -29,16 +29,16 @@ Execute the script ```db_creation.sql``` that is inside the folder ```.\Playlist
 > Access the folder ```.\PlaylistProject\PlaylistApplication.UnitTests\``` and run ```dotnet test```
 
 ## Documentation
-You can import the swagger.json file on [editor-next.swagger.io](https://editor-next.swagger.io/) to visualize the API documentation without the need of running the project.
+You can import the [swagger.json](https://github.com/kamila-almeida/PlaylistProject/blob/develop/swagger.json) file on [editor-next.swagger.io](https://editor-next.swagger.io/) to visualize the API documentation without the need of running the project.
 
 ![image](https://user-images.githubusercontent.com/49010603/189496711-e53f0c23-13b6-4003-8b23-f4b711ca51a9.png)
 
 ## Postman Collection
-You can import the [Playlist API - V1.postman_collection.json](https://github.com/kamila-almeida/PlaylistProject/blob/develop/Playlist%20API%20-%20V1.postman_collection.json) file inside Postman and test the endpoints with payload examples. It is necessary to set the **{{baseUrl}}** environment variable to ```https://localhost:5001``` or ```http://localhost:5000```.
+You can import the [Playlist API - V1.postman_collection.json](https://github.com/kamila-almeida/PlaylistProject/blob/develop/Playlist%20API%20-%20V1.postman_collection.json) and [Playlist API Environment.postman_environment.json](https://github.com/kamila-almeida/PlaylistProject/blob/develop/Playlist%20API%20Environment.postman_environment.json) files inside Postman and test the endpoints with payload examples.
 
 ## Observations
 
-As this application is very simple I chose to put all the layers under the same project but in a real-life scenario I would separate the layers in different class libraries as suggested by Domain Driven Design and Clean Architecture approaches. The main layers would be:
+As this application is very simple I chose to put all the layers under the same project but in a real-life scenario I would separate the layers in different class libraries as suggested by the Domain Driven Design and Clean Architecture approaches. The main layers would be:
 
 - **API:** contains the controllers and project configurations
 - **Application:** contains the business logic
