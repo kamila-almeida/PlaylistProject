@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistApplication.API", "PlaylistApplication.API\PlaylistApplication.API.csproj", "{0709C32A-CA5F-42EF-9839-EF4B91779942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistApplication.UnitTests", "PlaylistApplication.UnitTests\PlaylistApplication.UnitTests.csproj", "{D22FFF0D-DCD3-4105-B22D-2B9A7F3E1E15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0709C32A-CA5F-42EF-9839-EF4B91779942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0709C32A-CA5F-42EF-9839-EF4B91779942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0709C32A-CA5F-42EF-9839-EF4B91779942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0709C32A-CA5F-42EF-9839-EF4B91779942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22FFF0D-DCD3-4105-B22D-2B9A7F3E1E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22FFF0D-DCD3-4105-B22D-2B9A7F3E1E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22FFF0D-DCD3-4105-B22D-2B9A7F3E1E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22FFF0D-DCD3-4105-B22D-2B9A7F3E1E15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DFA8DCA-46F5-4792-A2BA-C184AC8BCE41}
+	EndGlobalSection
+EndGlobal
