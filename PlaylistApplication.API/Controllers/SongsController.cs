@@ -210,8 +210,6 @@ namespace PlaylistApplication.API.Controllers
 
                 var result = await _songService.GetPlaylistsBySongAsync(id, cancellationToken);
 
-                result ??= new List<Playlist>();
-
                 return Ok(result);
             }
             catch (Exception ex)

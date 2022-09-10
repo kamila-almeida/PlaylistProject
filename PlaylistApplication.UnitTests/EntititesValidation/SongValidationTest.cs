@@ -13,7 +13,7 @@ namespace PlaylistApplication.UnitTests.EntititesValidation
         }
 
         [Fact]
-        public async Task Validation_SongPropertiesHaveValidValues_ValidationShouldReturnTrue()
+        public void Validation_SongPropertiesHaveValidValues_ValidationShouldReturnTrue()
         {
             // Arrange
             var song = new Song
@@ -30,7 +30,7 @@ namespace PlaylistApplication.UnitTests.EntititesValidation
         }
 
         [Fact]
-        public async Task Validation_SongPropertiesHaveInvalidValues_ValidationShouldReturnTrue()
+        public void Validation_SongPropertiesHaveInvalidValues_ValidationShouldReturnTrue()
         {
             // Arrange
             var song = new Song
